@@ -75,6 +75,9 @@
   margin: 0;
   padding: 0;
   font-family: Lato;
+  
+  letter-spacing: -0.01em;
+  word-spacing: -0.01em;
 }
 
 body {
@@ -85,7 +88,7 @@ body {
 
 /*Header*/
 .head {
-  height: 90px;
+  height: 89px;
   background-color: #2d303a;
   border-bottom: 6px solid #323746;
 }
@@ -97,13 +100,13 @@ header {
 
 h1 a {
   color: #ffffff;
-  font-size: 26px;
+  font-size: 25px;
   font-stretch: ultra-condensed;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
 }
 
 h1 span {
@@ -127,15 +130,15 @@ ul a {
 }
 
 ul a:link {
-color: #ffffff; /* Цвет ссылок */
+  color: #ffffff;
 }
 
 ul a:visited {
-color: #ffffff; /* Цвет посещенных ссылок */
+  color: #ffffff;
 }
 
 ul a:hover {
-color: #ff0000; /* Цвет активной ссылки */ 
+  color: #ff0000;
 }
 
 li {/*
@@ -144,7 +147,7 @@ li {/*
   
   color: #ffffff;
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
   display: inline-block;
 }
@@ -174,8 +177,8 @@ a img:hover {
 
 a img.img-left {
   position: absolute;
-  top: 57%;
-  left: 16%;
+  top: 56%;
+  left: 15%;
   right: 0;
   bottom: 0;
 }
@@ -183,7 +186,7 @@ a img.img-left {
 a img.img-right {
   transform: rotate(180deg);
   position: absolute;
-  top: 57%;
+  top: 56%;
   left: 84%;
   right: 0;
   bottom: 0;
@@ -203,4 +206,144 @@ img.iPhone-horizontal {
   left: 44%;
   right: 0;
   bottom: 0;
+}
+
+/*services block*/
+.services {
+  display: grid;
+  grid-template-columns: 360px 320px 340px;
+  grid-template-rows: 218px 120px 120px;
+  border-bottom: 5px solid #ffffff;
+  background-color: #f2f2f2;
+  text-align: justify;
+  height: 495px;
+  width: 100%;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  word-spacing: -0.01em;
+}
+
+.services img {
+  float: left;
+}
+
+.services h3 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+}
+/*
+.box {
+  border: 1px solid yellow;
+}*/
+
+.services p {
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+}
+
+.our-services {
+  grid-area: 1 / 1 / 2 / 4;
+  line-height: 30px;
+  height: 70px + 50px + 18px;
+}
+
+.our-services h2 {
+  padding: 65px 40px 0 40px;
+  
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+}
+
+.our-services p {
+  padding: 26px 40px 0 41px;
+  
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: justify;
+}
+
+.custom-design img {
+  padding: 0 20px 15px 40px;
+}
+
+.custom-design p {
+  padding: 11px 15px 0 0;
+  
+  line-height: 21.56px;
+  letter-spacing: -0.01em;
+  word-spacing: -0.01em;
+}
+
+.inovative-ideas img {
+  padding: 0 20px 15px 0;
+}
+
+.inovative-ideas p {
+  padding: 11px 15px 0 0;
+  
+  line-height: 21.56px;
+  letter-spacing: -0.01em;
+  word-spacing: 0.01em;
+}
+
+.love-answer img {
+  padding: 0 20px 15px 0;
+}
+
+.love-answer p {
+  padding: 11px 35px 0 0;
+  
+  line-height: 21.56px;
+  letter-spacing: -0.01em;
+  word-spacing: 0.01em;
+}
+
+.responsive-layout img {
+  padding: 0 20px 15px 40px;
+}
+
+.responsive-layout p {
+  padding: 11px 15px 0 0;
+  
+  line-height: 21.56px;
+  letter-spacing: -0.01em;
+  word-spacing: 0.01em;
+}
+
+.support img {
+  padding: 0 20px 15px 0;
+}
+
+.support p {
+  padding: 11px 15px 0 0;
+  
+  line-height: 21.56px;
+  letter-spacing: -0.01em;
+  word-spacing: 0.01em;
+}
+
+.feel-like img {
+  padding: 0 20px 15px 0;
+}
+
+.feel-like p {
+  padding: 11px 35px 0 0;
+  
+  line-height: 21.56px;
+  letter-spacing: -0.01em;
+  word-spacing: 0.01em;
 }
