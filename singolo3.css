@@ -87,7 +87,6 @@ body {
 
 .get-a-quote {
   padding: 61px 35px;
-  height: 648px;
   background-color: #f06c64;
   border: 6px solid #ea676b;
 }
@@ -217,4 +216,36 @@ textarea {
 
 textarea::placeholder {
   color: #f48c8f;
+}
+
+footer {
+  position: relative;
+  height: 76px;
+  background-color: #2d303a;
+}
+
+.copyright {
+  position: absolute;
+  top: 30px;
+  left: 41px;
+  font-size: 12px;
+  color: #575d74;
+}
+
+.soc{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.circle {
+  padding: 8px 13px;
+  margin: 0;
+  background-image: url("assets/img/Ellipse.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.img:hover {
+  transform: scale(1.5, 1.5);
 }
