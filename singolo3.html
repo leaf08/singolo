@@ -12,10 +12,11 @@
 	  <div class="block">
 	    <div class="form">
 	      <form action="index.html">
-            <label><input type="text" name="name" placeholder="Name (Required)" required></label>
+            <label><input type="text" name="name" pattern="[A-Za-zА-Яа-яЁё]{3,30}" placeholder="Name (Required)" required></label>
 		    <label><input type="email" name="email" placeholder="Email (Required)" required></label>
 		    <label><input type="text" name="subject" placeholder="Subject"></label>
 		    <label><textarea name="describe" placeholder="Describe your project in detail..."></textarea></label>
+			<br><br><button>Submit</button
           </form>
 	    </div>
 	    <div class="contact-info">
