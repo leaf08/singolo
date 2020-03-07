@@ -80,3 +80,141 @@
   word-spacing: -0.01em;
 }
 
+body {
+  margin: auto;
+  width: 1020px;
+}
+
+.get-a-quote {
+  padding: 61px 35px;
+  height: 648px;
+  background-color: #f06c64;
+  border: 6px solid #ea676b;
+}
+
+.get-a-quote h2 {
+  padding-bottom: 29px;
+  font-size: 30px;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+}
+
+.get-a-quote p {
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+}
+
+.block {
+  position: relative;
+  padding-top: 45px;
+}
+
+.contact-info {
+  position: absolute;
+  right: 0;
+  top: 46px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+}
+
+.contact-info p {
+  padding-top: 10px;
+  padding-bottom: 9px;
+  width: 300px;
+  height: 100px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
+
+.contact-info a {
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+
+.location {
+  margin: 0;
+  padding: 0 25px;
+  background-image: url("assets/img/location.png");
+  background-repeat: no-repeat;
+  background-position: 4px 4px;
+}
+
+.phone {
+  margin: 0;
+  padding: 0 25px;
+  background-image: url("assets/img/phone.png");
+  background-repeat: no-repeat;
+  background-position: 2px 4px;
+}
+
+.mail {
+  margin: 0;
+  padding: 0 25px;
+  background-image: url("assets/img/mail.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+input {
+  margin-bottom: 18px;
+  padding-left: 15px;
+  width: 605px;
+  height: 37px;
+  border-radius: 5px;
+  border: none;
+  background-color: #d6564f;
+  font-size: 12px;
+  color: #f48c8f;
+}
+
+input::placeholder {
+  color: #f48c8f;
+}
+
+textarea {
+  padding-left: 15px;
+  padding-top: 7px;
+  width: 605px;
+  height: 195px;
+  border-radius: 5px;
+  border: none;
+  background-color: #d6564f;
+  font-size: 12px;
+  color: #f48c8f;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: #f48c8f;
+}
